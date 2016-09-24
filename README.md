@@ -15,7 +15,7 @@ React Native + React-Redux + Native Base + Code Push
 
 7) `git merge -s recursive -X theirs starterpack/master`
 
-8) change `new_app_name` in index.ios.js (line 5) and index.android.js (line 5) file to your new app name used in step 2
+8) change `new_app_name` in index.ios.js (line 5), index.android.js (line 5) and package.json (line 2) file to your new app name used in step 2
 
 9) `npm install`
 
