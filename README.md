@@ -27,9 +27,7 @@ React Native + React-Redux + Native Base + Code Push
 
 ##Deploying Changes Through Code Push
 
-1) Make your changes
-
-2) Increment app version number in `ios/code_push_test/Info.plist` (CFBundleShortVersionString & CFBundleVersion) and `android/app/build.gradle` (versionCode && versionName)
+1) Make your code changes
 
 3) `code-push release-react <new-app-name> ios --deploymentName Production`, release for ios
 
@@ -53,3 +51,12 @@ code-push release-react <appName> <platform>
 ```
 
 5) You can view your current deployment stats using `code-push deployment ls <new-app-name> -k`
+
+
+##Store Releases
+
+If you want to release a new update of you app through the store (play store or app store), use the following.
+
+1) Make your code changes.
+
+2) Increment app version number in `ios/code_push_test/Info.plist` (CFBundleShortVersionString & CFBundleVersion) and `android/app/build.gradle` (versionCode && versionName)
