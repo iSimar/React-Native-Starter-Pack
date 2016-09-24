@@ -64,3 +64,5 @@ If you want to release a new update of your app through the play store or app st
 1) Make your code changes.
 
 2) Increment app version number in `ios/<new-app-name>/Info.plist` (CFBundleShortVersionString & CFBundleVersion) and `android/app/build.gradle` (versionCode & versionName)
+
+3) Build and submit your app to the store
