@@ -31,9 +31,9 @@ React Native + React-Redux + Native Base + Code Push
 
 2) Increment app version number in `ios/code_push_test/Info.plist` (CFBundleShortVersionString & CFBundleVersion) and `android/app/build.gradle` (versionCode && versionName)
 
-3) `code-push release-react <new-app-name> ios`, release for ios
+3) `code-push release-react <new-app-name> ios --deploymentName Production`, release for ios
 
-4) `code-push release-react <new-app-name> android`, release for android
+4) `code-push release-react <new-app-name> android --deploymentName Production`, release for android
 
 **code-push release-react commands options:**
 ```
