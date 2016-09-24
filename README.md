@@ -35,4 +35,19 @@ React Native + React-Redux + Native Base + Code Push
 
 4) `code-push release-react <new-app-name> android`, release for android
 
-
+**code-push release-react commands options:**
+```
+code-push release-react <appName> <platform>
+[--bundleName <bundleName>]
+[--deploymentName <deploymentName>]
+[--description <description>]
+[--development <development>]
+[--disabled <disabled>]
+[--entryFile <entryFile>]
+[--mandatory]
+[--plistFile <plistFile>]
+[--plistFilePrefix <plistFilePrefix>]
+[--sourcemapOutput <sourcemapOutput>]
+[--targetBinaryVersion <targetBinaryVersion>]
+[--rollout <rolloutPercentage>]
+```
