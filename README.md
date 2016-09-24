@@ -31,9 +31,9 @@
 
 1) Make your code changes
 
-3) `code-push release-react <new-app-name> ios --deploymentName Production`, release for ios
+2) `code-push release-react <new-app-name> ios --deploymentName Production`, release for ios
 
-4) `code-push release-react <new-app-name> android --deploymentName Production`, release for android
+3) `code-push release-react <new-app-name> android --deploymentName Production`, release for android
 
 Tip: if you messed up a release and want to rollback use `code-push rollback <new-app-name> Production`
 
@@ -54,7 +54,7 @@ code-push release-react <appName> <platform>
 [--rollout <rolloutPercentage>]
 ```
 
-5) You can view your current deployment stats using `code-push deployment history <new-app-name> Production`
+4) You can view your current deployment stats using `code-push deployment history <new-app-name> Production`
 
 
 ##Store Releases
