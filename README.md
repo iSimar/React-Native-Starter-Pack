@@ -21,14 +21,6 @@ React Native + React-Redux + Native Base + Code Push
 
 10) `code-push app add <new-app-name>`
 
-11 ) `git checkout -b code-push-staging`
+11) `react-native link`, put the **production** code-push key from **step 10** when prompted
 
-12) `react-native link`, put the *staging* code-push key from *step 10* when prompted
-
-13) `git add . && git commit -m "first staging commit"`
-
-14) `git checkout master`
-
-15) `react-native link`, put the *production* code-push key from *step 10* when prompted
-
-16) `git add . && git commit -m "first production commit"`
+12) `git add . && git commit -m "first production commit"`
