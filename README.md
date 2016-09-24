@@ -33,7 +33,7 @@ React Native + React-Redux + Native Base + Code Push
 
 4) `code-push release-react <new-app-name> android --deploymentName Production`, release for android
 
-**code-push release-react commands options:**
+**code-push release-react command options:**
 ```
 code-push release-react <appName> <platform>
 [--bundleName <bundleName>]
