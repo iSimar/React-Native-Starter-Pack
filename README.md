@@ -1,6 +1,8 @@
 # React-Native-Starter-Pack
 React Native + React-Redux + Native Base + Code Push
 
+##Setting Up Project
+
 1) `npm i -g rninit`
 
 2) `rninit init <new-app-name> --source react-native@0.34`, this is basically "react-native init" but you can specify a version of react-native 
