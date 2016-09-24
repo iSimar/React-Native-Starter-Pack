@@ -1,5 +1,5 @@
 # React-Native-Starter-Pack
-React Native + React-Redux + Native Base + Code Push
+[React Native](https://facebook.github.io/react-native/) + [React-Redux](https://github.com/reactjs/react-redux) + [Native Base](http://nativebase.io) + [Code Push](http://microsoft.github.io/code-push/)
 
 ##Setting Up Project
 
