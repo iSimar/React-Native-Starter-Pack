@@ -51,3 +51,5 @@ code-push release-react <appName> <platform>
 [--targetBinaryVersion <targetBinaryVersion>]
 [--rollout <rolloutPercentage>]
 ```
+
+5) You can view your current deployment stats using `code-push deployment ls <new-app-name>`
