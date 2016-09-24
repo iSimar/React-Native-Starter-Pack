@@ -35,6 +35,8 @@ React Native + React-Redux + Native Base + Code Push
 
 4) `code-push release-react <new-app-name> android --deploymentName Production`, release for android
 
+Tip: if you messed up a release and want to rollback use `code-push rollback <new-app-name> Production`
+
 **code-push release-react command options:**
 ```
 code-push release-react <appName> <platform>
