@@ -55,7 +55,7 @@ code-push release-react <appName> <platform>
 
 ##Store Releases
 
-If you want to release a new update of you app through the store (play store or app store), use the following.
+If you want to release a new update of you app through the store (play store or app store), do the following.
 
 1) Make your code changes.
 
