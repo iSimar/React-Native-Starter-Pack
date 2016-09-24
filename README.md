@@ -1,20 +1,34 @@
 # React-Native-Starter-Pack
 React Native + React-Redux + Native Base + Code Push
 
-1) `git clone https://github.com/iSimar/React-Native-Starter-Pack.git`
+1) `npm i -g rninit`
 
-2) `npm install`
+2) `rninit init <new-app-name> --source react-native@0.34`, this is basically "react-native init" but you can specify a version of react-native 
 
-3) `code-push app add <new-app-name>`
+3) `git init`
 
-4) `git branch -c code-push-staging`
+4) `git add . && git commit -m "first commit"`
 
-5) `react-native link`, put the staging code-push key from step 3 when prompted
+5) `git remote add starterpack https://github.com/iSimar/React-Native-Starter-Pack.git`
 
-6) `git commit -m "first staging commit"`
+6) `git pull starterpack`
 
-7) `git checkout master`
+7) `git merge -s recursive -X theirs starterpack/master`
 
-8) `react-native link`, put the production code-push key from step 3 when prompted
+8) change `new_app_name` in index.ios.js (line 5) and index.android.js (line 5) file to your new app name used in step 2
 
-9) `git commit -m "first production commit"`
+9) `npm install`
+
+10) `code-push app add <new-app-name>`
+
+11 ) `git checkout -b code-push-staging`
+
+12) `react-native link`, put the *staging* code-push key from *step 10* when prompted
+
+13) `git add . && git commit -m "first staging commit"`
+
+14) `git checkout master`
+
+15) `react-native link`, put the *production* code-push key from *step 10* when prompted
+
+16) `git add . && git commit -m "first production commit"`
