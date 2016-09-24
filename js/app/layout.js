@@ -14,7 +14,7 @@ class Layout extends Component {
     return (
       <Container> 
           <Header>
-              <Title>Header New</Title>
+              <Title>Header Title</Title>
           </Header>
 
           <Content style={styles.content}>
