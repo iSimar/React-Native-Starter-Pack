@@ -24,3 +24,15 @@ React Native + React-Redux + Native Base + Code Push
 11) `react-native link`, put the **production** code-push key from **step 10** when prompted
 
 12) `git add . && git commit -m "first production commit"`
+
+##Deploying Changes Through Code Push
+
+1) Make your changes
+
+2) Increment app version number in `ios/code_push_test/Info.plist` (CFBundleShortVersionString) and `android/app/build.gradle` (versionName)
+
+3) `code-push release-react <new-app-name> ios`, release for ios
+
+4) `code-push release-react <new-app-name> android`, release for android
+
+
