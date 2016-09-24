@@ -52,7 +52,7 @@ code-push release-react <appName> <platform>
 [--rollout <rolloutPercentage>]
 ```
 
-5) You can view your current deployment stats using `code-push deployment ls <new-app-name> -k`
+5) You can view your current deployment stats using `code-push deployment history <new-app-name> Production`
 
 
 ##Store Releases
